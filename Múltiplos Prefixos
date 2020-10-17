@@ -1,9 +1,3 @@
-========================================
-= ## Múltiplos Prefixos - v0.0.1    ## =
-= ## Desenvolvido por: Gutão#0103   ## =
-= ## Instruções estão dentro da raw ## =
-========================================
-
 {
   "name": "💜Sistema de Prefixos by: Gutão#0103",
   "permissions": "NONE",
@@ -20,7 +14,7 @@
       "varName": "",
       "info": "2",
       "storage": "1",
-      "varName2": "a",
+      "varName2": "mensagem",
       "name": "Store Message Info"
     },
     {
@@ -30,7 +24,7 @@
     },
     {
       "storage": "1",
-      "varName": "a",
+      "varName": "mensagem",
       "comparison": "10",
       "value": "'Coloque o prefixo aqui'",
       "iftrue": "0",
@@ -45,7 +39,7 @@
       "name": "Comment"
     },
     {
-      "text": "${tempVars(\"a\")}",
+      "text": "${tempVars(\"mensagem\")}",
       "text2": "prefixo aqui",
       "text3": "",
       "info": "0",
