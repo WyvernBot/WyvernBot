@@ -1,5 +1,6 @@
+
 {
-  "name": "💜Sistema de Prefixos by: Gutão#0103",
+  "name": "💜Sistema de Prefixo",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "FKXOq",
@@ -10,12 +11,11 @@
       "name": "Comment"
     },
     {
-      "message": "0",
-      "varName": "",
-      "info": "2",
+      "info": "0",
+      "infoIndex": "0",
       "storage": "1",
-      "varName2": "mensagem",
-      "name": "Store Message Info"
+      "varName": "mensagem",
+      "name": "Store Command Params"
     },
     {
       "comment": "💜 Coloque o prefixo dentro das ''",
@@ -26,7 +26,7 @@
       "storage": "1",
       "varName": "mensagem",
       "comparison": "10",
-      "value": "'Coloque o prefixo aqui'",
+      "value": "'!'",
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "1",
@@ -40,7 +40,7 @@
     },
     {
       "text": "${tempVars(\"mensagem\")}",
-      "text2": "prefixo aqui",
+      "text2": "!",
       "text3": "",
       "info": "0",
       "storage": "1",
@@ -65,3 +65,4 @@
   ],
   "comType": "3"
 }
+
